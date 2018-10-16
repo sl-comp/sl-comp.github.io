@@ -1,37 +1,26 @@
-## Welcome to GitHub Pages
+#+MACRO: sl-comp SL-COMP
+#+MACRO: SL [[http://www0.cs.ucl.ac.uk/staff/p.ohearn/SeparationLogic/Separation_Logic/SL_Home.html][Separation Logic]]
+#+MACRO: SMT-COMP [[http://smtcomp.sourceforge.net][SMT-COMP]]
+#+MACRO: SAT-COMP [[http://www.satcompetition.org][SAT]]
+#+MACRO: SMT-LIB  [[http://smtlib.cs.uiowa.edu/index.shtml][SMT-LIB]]
+#+MACRO: StarExec [[https://www.starexec.org][StarExec]]
 
-You can use the [editor on GitHub](https://github.com/sl-comp/sl-comp.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+## Welcome to SL-COMP Pages
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+   SL-COMP is an initiative for collecting decision problems in [Separation Logic](http://www0.cs.ucl.ac.uk/staff/p.ohearn/SeparationLogic/Separation_Logic/SL_Home.html)
+   and solvers dealing with such problems.
 
-### Markdown
+   This initiative started in 2014 and it was inspired by the very
+   popular initiatives on other theories, like
+   first-order theories for [SMT-COMP](http://smtcomp.sourceforge.net) and
+   Boolean constraints for [SAT-COMP](http://www.satcompetition.org).
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### Editions:
+- NEW: SL-COMP 2019 at TOOLympics for 25th edition of ETAPS
+- [SL-COMP 2018](https://www.irif.fr/~sighirea/sl-comp/18/index.html) at FLOC 2018
+- [SL-COMP 2014](https://www.irif.fr/~sighirea/sl-comp/14/index.html) at FLOC 2018
 
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/sl-comp/sl-comp.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+### Mailing list:
+  Any question related to this competition shall be sent to
+  the organisation committee and to the
+  [mailing list](https://groups.google.com/forum/sl-comp).
