@@ -9,7 +9,7 @@
 ### Editions:
 - NEW: SL-COMP 2019 at TOOLympics for 25th edition of ETAPS
 - [SL-COMP 2018](https://www.irif.fr/~sighirea/sl-comp/18/index.html) at FLOC 2018
-- [SL-COMP 2014](https://www.irif.fr/~sighirea/sl-comp/14/index.html) at FLOC 2018
+- [SL-COMP 2014](https://www.irif.fr/~sighirea/sl-comp/14/index.html) at FLOC 2014
 
 ### Mailing list:
   Any question related to this competition shall be sent to
