@@ -1,6 +1,4 @@
-## Welcome to SL-COMP Pages
-
-   SL-COMP is an initiative for collecting decision problems in [Separation Logic](http://www0.cs.ucl.ac.uk/staff/p.ohearn/SeparationLogic/Separation_Logic/SL_Home.html)
+ SL-COMP is an initiative for collecting decision problems in [Separation Logic](http://www0.cs.ucl.ac.uk/staff/p.ohearn/SeparationLogic/Separation_Logic/SL_Home.html)
    and solvers dealing with such problems.
 
    This initiative started in 2014 and it was inspired by the very
