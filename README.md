@@ -1,10 +1,3 @@
-#+MACRO: sl-comp SL-COMP
-#+MACRO: SL [[http://www0.cs.ucl.ac.uk/staff/p.ohearn/SeparationLogic/Separation_Logic/SL_Home.html][Separation Logic]]
-#+MACRO: SMT-COMP [[http://smtcomp.sourceforge.net][SMT-COMP]]
-#+MACRO: SAT-COMP [[http://www.satcompetition.org][SAT]]
-#+MACRO: SMT-LIB  [[http://smtlib.cs.uiowa.edu/index.shtml][SMT-LIB]]
-#+MACRO: StarExec [[https://www.starexec.org][StarExec]]
-
 ## Welcome to SL-COMP Pages
 
    SL-COMP is an initiative for collecting decision problems in [Separation Logic](http://www0.cs.ucl.ac.uk/staff/p.ohearn/SeparationLogic/Separation_Logic/SL_Home.html)
