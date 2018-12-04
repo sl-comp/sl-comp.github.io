@@ -2,3 +2,10 @@
 ---
 
 @import "{{ site.theme }}";
+
+#banner { 
+  background: #ffff00; 
+  #logo {
+    background: url(../../sl-comp.png);
+  }
+}
