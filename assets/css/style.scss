@@ -2,4 +2,5 @@
 ---
 
 @import "{{ site.theme }}";
-font-size: 1.2em
+
+summary { display: block, color: #333 }
