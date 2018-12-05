@@ -3,9 +3,12 @@
 
 @import "{{ site.theme }}";
 
-#banner { 
-  background: #ffff00; 
-  #logo {
+header {
+  background: #2ECCFA;
+  
+  #banner { 
+   background: #58FAF4; 
+   #logo {
     position:absolute;
     height: 40px;
     width: 60px;
@@ -13,5 +16,6 @@
     top:7px;
     display: block;
     background: url(../../sl-comp-wand.svg);
+  }
  }
 }
