@@ -6,6 +6,12 @@
 #banner { 
   background: #ffff00; 
   #logo {
-    background: url(../../sl-comp-wand.svg) center;
-  }
+    position:absolute;
+    height: 36px;
+    width: 360px;
+    right:7px;
+    top:7px;
+    display: block;
+    background: url(../../sl-comp-wand.svg);
+ }
 }
