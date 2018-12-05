@@ -16,7 +16,7 @@ it has been afiliated with different events:
 - Dec 6, 2019: Call for participation to SL-COMP 2019 at [TOOLympics 2019](https://tacas.info/toolympics.php)
 - July 14, 2018: Results of [SL-COMP 2018](https://www.irif.fr/~sighirea/sl-comp/18/index.html) are presented at [ADSL 2018](http://adsl.univ-grenoble-alpes.fr/)
 
-# Competition rules and timeline
+# Competition rules
 
 # Benchmarks and divisions
 
@@ -24,13 +24,13 @@ it has been afiliated with different events:
 
 # Participants
 
-# Papers
-
 # Previous editions
 - [SL-COMP 2018](https://www.irif.fr/~sighirea/sl-comp/18/index.html) at [FLOC 2018](https://www.floc18.org)
 - [SL-COMP 2014](https://www.irif.fr/~sighirea/sl-comp/14/index.html) at [FLOC 2014](http://vsl2014.at/)
 
-# Mailing list:
+# Papers
+
+# Mailing list
   Any question related to this competition shall be sent to
   the organisation committee and to the
   [mailing list](https://groups.google.com/forum/sl-comp).
