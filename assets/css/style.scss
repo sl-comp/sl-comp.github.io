@@ -3,12 +3,16 @@
 
 @import "{{ site.theme }}";
 
+body {
+  font:16px/22px 'Quattrocento Sans', "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
 header {
   background: #58ACFA;
 }
 
 #banner { 
-   background: #FBFBEF; 
+   background: #FBF5EF; 
    #logo {
     position:absolute;
     height: 40px;
