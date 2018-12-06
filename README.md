@@ -13,7 +13,7 @@ it has been afiliated with different events:
 [TOOLympics 2019](https://tacas.info/toolympics.php).
 
 # NEWS
-- Dec 6, 2019: Call for participation to SL-COMP 2019 at [TOOLympics 2019](https://tacas.info/toolympics.php)
+- Dec 6, 2018: Call for participation to SL-COMP 2019 at [TOOLympics 2019](https://tacas.info/toolympics.php)
 - July 14, 2018: Results of [SL-COMP 2018](https://www.irif.fr/~sighirea/sl-comp/18/index.html) are presented at [ADSL 2018](http://adsl.univ-grenoble-alpes.fr/)
 
 # Competition rules
