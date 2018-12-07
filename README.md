@@ -27,7 +27,7 @@ The competition consists of two phases: a training phase, in which solver develo
 A decision problem is either a satisfiability or an entailment problem in a fixed fragment of Separation Logic.
 The possible answers of a solver are: *sat*, *unsat* and *unknown*. The answer is compared with the known status of the problem specified in the problem's file. The result of the comparison determines the evaluation of the solver on this problem, which is *correct*, *incorrect* or *unsolved*.
 
-The problems are specified using the format described [here](docs/sl-comp-format.pdf) and commented in this [post](https://groups.google.com/forum/?hl=fr#!topic/sl-comp/3j8iaaLvTWs). 
+The problems are specified using the format described [here](docs/smtlib-sl.pdf) and commented in this [post](https://groups.google.com/forum/?hl=fr#!topic/sl-comp/3j8iaaLvTWs). 
 The input format of problems extends the format [SMT-LIB](http://smtlib.cs.uiowa.edu/index.shtml) with SL constructs, and exploit the new features of SMT-LIB like datatypes definition and mutually recursive functions.
 
 Teams may contribute with problems in the input format above. The number of problems submitted by a team in some division is limited. The problems submitted are revised by the organizing committee which may or may not accept it. An accepted problem may be changed when this improves the overall quality of the final set of problems. 
@@ -98,7 +98,7 @@ The following solvers have participated to at least one edition of SL-COMP:
 # Papers
 
 * R. Iosif, C. Serban, A. Reynolds, and M. Sighireanu. *Encoding Separation Logic in SMT-LIB v2.5*.
-  [PDF](docs/sl-comp-format.pdf)
+  [PDF](docs/smtlib-sl.pdf)
 * M. Sighireanu and D. R. Cok. *Report on SLCOMP 2014*. JSAT 2014, 
   [PDF](https://www.irif.fr/~sighirea/sl-comp/14/slcomp14-report.pdf)
 
