@@ -1,6 +1,8 @@
-# Participants to SL-COMP
+--
+--
+title: Participants to SL-COMP
 
-## Asterix
+# Asterix
 ### Description
 Asterix implements a model-based approach to decide separation logic
 satisfiability and entailment queries. Our procedure, relying on SMT
