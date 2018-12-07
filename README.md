@@ -79,7 +79,7 @@ The same repository includes a translator of the input format used for SL-COMP 2
 # Participants
 
 The following solvers have participated to at least one edition of SL-COMP:
-* [Asterix](solvers.md#Asterix) 
+* [Asterix](docs/solvers.md#Asterix) 
 * [ComSPEN](solvers.md#CSPEN)
 * [Cyclist-SL](solvers.md#CYCLIST)
 * [CVC4](solvers.md#CVC4) 
