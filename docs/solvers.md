@@ -1,6 +1,6 @@
--- 
-title: Participants to SL-COMP
---
+---
+title: "Participants to SL-COMP"
+---
 
 # Asterix
 
