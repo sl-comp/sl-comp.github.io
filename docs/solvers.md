@@ -1,6 +1,5 @@
 
-Participants to SL-COMP
-=======================
+This page describes the solvers that have participated to at least one edition of SL-COMP.
 
 # Asterix
 
