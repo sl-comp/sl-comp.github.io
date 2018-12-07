@@ -46,7 +46,7 @@ The file header also specifies the status of the problems (*sat*, *unsat*) and, 
         for quantifier free (QF) formulas in the symbolic heaps (SH) fragment using only acyclic singly linked lists
     * [**qf_shid_sat**](https://github.com/sl-comp/SL-COMP18/tree/master/bench/qf_shid_sat): 
        for QF formulas in the SH fragment using general inductive definitions (ID)
-    * [**qf_shidlia_sat**](https://github.com/sl-comp/SL-COMP18/tree/master/bench/qf_shidlia_sat]: 
+    * [**qf_shidlia_sat**](https://github.com/sl-comp/SL-COMP18/tree/master/bench/qf_shidlia_sat): 
        for QF formulas in the SH fragment with ID and linear integer constraints (LIA)
     * [**qf_bsl_sat**](https://github.com/sl-comp/SL-COMP18/tree/master/bench/qf_bsl_sat): 
       for QF fragment with boolean combination of SL atoms; 
