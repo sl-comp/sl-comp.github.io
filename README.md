@@ -13,6 +13,8 @@ it has been afiliated with different events:
 [TOOLympics 2019](https://tacas.info/toolympics.php).
 
 # NEWS
+* March 8th, 2019: First training run of SL-COMP'19 on [StarExec](https://starexec.org)
+* February 25, 2019: Preliminary description of SL-COMP'19 at [TOOLympics 2019](https://tacas.info/toolympics.php) available at [competition's web site](https://github.com/sl-comp/SL-COMP19/tree/master/doc/report/toolympics19/main.pdf)
 * January 8, 2019: Deadline for registration of solvers for SL-COMP 2019 at 
      [easychair submission site](https://easychair.org/conferences/?conf=slcomp19)
 * December 7, 2018: Call for participation to SL-COMP 2019 at [TOOLympics 2019](https://tacas.info/toolympics.php)
@@ -97,6 +99,8 @@ The following solvers have participated to at least one edition of SL-COMP:
 
 # Papers
 
+* M. Sighireanu et al. *SL-COMP: Competition of Solvers for Separation Logic*. TOOLympics'19.
+  [PDF](https://github.com/sl-comp/SL-COMP19/tree/master/doc/report/toolympics19/main.pdf)
 * R. Iosif, C. Serban, A. Reynolds, and M. Sighireanu. *Encoding Separation Logic in SMT-LIB v2.5*.
   [PDF](docs/smtlib-sl.pdf)
 * M. Sighireanu and D. R. Cok. *Report on SLCOMP 2014*. JSAT 2014, 
