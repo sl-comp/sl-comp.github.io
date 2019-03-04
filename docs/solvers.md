@@ -1,29 +1,32 @@
 
 This page describes the solvers that have participated to at least one edition of SL-COMP.
 
-# Asterix
+# Asterix 
 
-Asterix implements a model-based approach to decide separation logic
-satisfiability and entailment queries. Our procedure, relying on SMT
-solving technology to untangle potential aliasing between program
-variables, has at its core a _matching_ function that checks whether a
-concrete valuation is a model of the input formula and, if so,
-generalises it to a larger class of models where the formula is also
-valid. The version submitted to this competition is dynamically linked
-with Z3 and implements support for the acyclic list segment predicate
-only. Details about the algorithm and its correctness are described in
+The solver deals with the satisfiability and entailment checking in the
+|QF_SHLS| fragment.
+For this, it implements a model-based approach.
+The procedure relies on SMT solving technology (Z3 solver is used) 
+to untangle potential aliasing between program variables.
+It has at its core a matching function that checks whether a 
+concrete valuation is a model of the input formula and, if so, 
+generalizes it to a larger class of models where the formula is also valid.
 
 * Reference
    * J. A. Navarro Perez and A. Rybalchenko. Separation Logic Modulo Theories.
-In Proc. APLAS'13, 2013.
+     In Proc. APLAS'13, 2013.
 
 * Contact
-   * Juan Antonio Navarro Pérez <juannavarroperez@gmail.com>
-   * Andrey Rybalchenko <rybal@microsoft.com>
+   * Juan Navarro Pérez (at the time at University College London, UK, now at Google) 
+    <juannavarroperez@gmail.com>
+
+   * Andrey Rybalchenko (at the time at TU Munich, Germany, now at Microsoft Research Cambridge, UK)
+     <rybal@microsoft.com>
 
 * Participation
-   * 2014: `sll0a_sat`, `sll0a_entl`
-   * 2018: `qf_shls_sat`, `qf_shls_entl`
+   * 2014: `sll0a_sat` (winner), `sll0a_entl` (winner)
+   * 2018: `qf_shls_sat` (winner), `qf_shls_entl` (winner)
+   * 2019: `qf_shls_sat`, `qf_shls_entl`
 
 
 # ComSPEN
