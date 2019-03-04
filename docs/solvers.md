@@ -4,7 +4,7 @@ This page describes the solvers that have participated to at least one edition o
 # Asterix 
 
 The solver deals with the satisfiability and entailment checking in the
-|QF_SHLS| fragment.
+`QF_SHLS` fragment.
 For this, it implements a model-based approach.
 The procedure relies on SMT solving technology (Z3 solver is used) 
 to untangle potential aliasing between program variables.
