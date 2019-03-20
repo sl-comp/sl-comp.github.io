@@ -39,6 +39,12 @@ arithmetics.
    * Zhilin Wu <wuzl@ios.ac.cn>
    * Chong Gao <gaochong@ios.ac.cn>
 
+* Reference 
+  * Xincai Gu, Taolue Chen, and Zhilin Wu,
+    A Complete Decision Procedure for Linearly Compositional Separation
+    Logic with Data Constraints.
+    In Proc. IJCAR, volume 9706 of LNCS, Springer, 2016.
+    
 * Participation
    * 2018 (expected but pull out because of an issue on StarExec)
    * 2019: `qf_shidlia_sat`, `qf_shidlia_entl`, `qf_shlid_entl`, `qf_shls_entl`, `qf_shls_sat`
@@ -46,22 +52,24 @@ arithmetics.
  
 # Cyclist-SL
 
-An entailment prover for separation logic with inductive predicates
-based on cyclic proof.  The theory and design is described in
-
-It includes SLSAT, a prover for satisfiability.
+Cyclist-SL deals with the entailment checking for the `QF_SLID` fragment.
+It is an instantiation of the theorem prover Cyclist for the case of Separation Logic with inductive definitions.
+The solver builds derivation trees and uses induction to cut infinite paths in these trees
+that satisfy some soundness condition.
+For the Separation Logic, Cyclist-SL replaces the rule of weakening used in first-order theorem provers with the frame rule of SL.
 
 * Contact
    * Nikos Gorogiannis <nikos.gorogiannis@gmail.com>
 
 * References
-   * J. Brotherston, N. Gorogiannis, and R. L. Petersen. A generic cyclic
-theorem prover. In Proc. APLAS-10, pages 350-367. Springer, 2012.
+   * J. Brotherston, N. Gorogiannis, and R. L. Petersen. 
+   A generic cyclic theorem prover. I
+   n Proc. APLAS-10, pages 350-367. Springer, 2012.
 
 
 * Participation
-   * 2014: `UDB_entl`, `UDB_sat`, `sll0a_entl`, `sll0a_sat`, `FDB_entl`
-   * 2018: `qf_shid_entl`, `qf_shid_sat`,
+   * 2014: `UDB_entl` (winner), `UDB_sat`, `sll0a_entl`, `sll0a_sat`, `FDB_entl`
+   * 2018: `qf_shid_entl` (second), `qf_shid_sat`,
    `qf_shls_entl`, `qf_shls_sat`, `qf_shlid_entl`,
    `shid_entl`
 
@@ -74,6 +82,11 @@ SL atoms without inductive definitions.
 * Contact
    * Andrew J. Reynolds <andrew.j.reynolds@gmail.com>
 
+* Reference
+  * Andrew Reynolds, Radu Iosif, Cristina Serban, and Tim King.
+    A Decision Procedure for Separation Logic in SMT.
+    In Proc. ATVA, Springer, 2016.
+    
 * Participation
    * 2018: `qf_bsl_sat`, `bsl_sat`
 
@@ -154,6 +167,11 @@ AutRHS.
 * Contact
    * Adam Rogalewicz <rogalew@fit.vutbr.cz>
 
+* Reference
+  * Radu Iosif, Adam Rogalewicz, and Tomas Vojnar.
+    Deciding Entailments in Inductive Separation Logic with Tree Automata.
+    In Proc. ATVA, volume 8837 of LNCS. Springer, 2014.
+  
 * Participation
    * 2014: `UDB_entl`, `FDB_entl`
    * 2018: `qf_shid_entl`, `qf_shlid_entl`, `shid_entl`
@@ -163,7 +181,7 @@ AutRHS.
 
 SLSAT deals with the satisfiability problem for the `qf_slid` fragment.
 The decision procedure is based on a fixed point computation of a constraint, 
-called the 'base' of an inductive predicate definition. 
+called the *base* of an inductive predicate definition. 
 This constraint is a conjunction of equalities and dis-equalities between 
 a set of free variables built also by the fixed point computation from the set of inductive definitions.
 
@@ -183,7 +201,7 @@ a set of free variables built also by the fixed point computation from the set o
 
 # Songbird
 
-Songbird targets `shidlia`| fragment and its subfragments. It employs mathematical induction
+Songbird targets `shidlia` fragment and its subfragments. It employs mathematical induction
 to prove entailments involving user-defined predicates. In addition,
 Songbird is also equipped with powerful proof techniques,
 which include a mutual induction proof system and
