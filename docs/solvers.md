@@ -40,8 +40,8 @@ arithmetics.
    * Chong Gao <gaochong@ios.ac.cn>
 
 * Participation
-   * 2018 (expected but pull out for issue on StarExec): `qf_shidlia_sat`, `qf_shidlia_entl`,
-   `qf_shlid_entl`, `qf_shls_entl`, `qf_shls_sat`
+   * 2018 (expected but pull out because of an issue on StarExec)
+   * 2019: `qf_shidlia_sat`, `qf_shidlia_entl`, `qf_shlid_entl`, `qf_shls_entl`, `qf_shls_sat`
  
  
 # Cyclist-SL
@@ -137,14 +137,50 @@ AutRHS.
    * 2018: /=qf_shid_entl=/, /=qf_shlid_entl=/, /=shid_entl=/
 
 
+# SLSAT
+
+SLSAT deals with the satisfiability problem for the /=qf_slid=/ fragment.
+The decision procedure is based on a fixed point computation of a constraint, 
+called the 'base' of an inductive predicate definition. 
+This constraint is a conjunction of equalities and dis-equalities between 
+a set of free variables built also by the fixed point computation from the set of inductive definitions.
+
+* Contact
+   * Nikos Gorogiannis <nikos.gorogiannis@gmail.com>
+
+* References
+   * J. Brotherston, C. Fuhs, Juan A. Navarro Perez, and N. Gorogiannis. 
+   A decision procedure for satisfiability in separation logic with inductive predicates.
+   In Proc. LICS, pages 1-10, ACM, 2014.
+
+
+* Participation
+   * 2014: /=UDB_sat=/ (second), /=sll0a_sat=/
+   * 2018: /=qf_shid_sat=/, /=qf_shls_sat=/
+   * 2019: /=qf_shid_sat=/, /=qf_shls_sat=/
+
 # Songbird
+
+Songbird targets /=shidlia=/| fragment and its subfragments. It employs mathematical induction
+to prove entailments involving user-defined predicates. In addition,
+Songbird is also equipped with powerful proof techniques,
+which include a mutual induction proof system and
+a lemma synthesis framework.
 
 * Contact
    * Ta Quang Trung <taquangtrungvn@gmail.com>
    * Chin Wei Ngan <chinwn@comp.nus.edu.sg>
 
+* References
+   * Quang-Trung Ta, Ton Chanh Le, Siau-Cheng Khoo, and Wei-Ngan Chin.
+   Automated Lemma Synthesis in Symbolic-heap Separation Logic.
+   In Proc. POPL, pages 1-29, ACM, 2017.
+   * Quang-Trung Ta, Ton Chanh Le, Siau-Cheng Khoo, and Wei-Ngan Chin.
+   Automated Mutual Explicit Induction Proof in Separation Logic.
+   In Proc. FM, volume 9995 of LNCS, pages 659-676, Springer, 2016.
+   
 * Participation
-   * 2018: all
+   * 2018: ALL, winner in /=qf_shid_entl=/, /=qf_shidlia_entl=/, /=shid_entl=/, /=shidlia_entl=/
 
 
 #  SPEN
