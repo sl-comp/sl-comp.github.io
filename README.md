@@ -89,6 +89,7 @@ The following solvers have participated to at least one edition of SL-COMP:
 * [S2S](docs/solvers.md#S2S)
 * [Sleek](docs/solvers.md#Sleek)
 * [Slide](docs/solvers.md#Slide)
+* [SLSAT](docs/solvers.md#SLSAT)
 * [Songbird](docs/solvers.md#SB)
 * [SPEN](docs/solvers.md#SPEN)
 
