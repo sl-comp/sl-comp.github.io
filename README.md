@@ -84,15 +84,15 @@ The same repository includes a translator of the input format used for SL-COMP 2
 
 The following solvers have participated to at least one edition of SL-COMP:
 * [Asterix](docs/solvers.md#Asterix) 
-* [ComSPEN](docs/solvers.md#CSPEN)
-* [Cyclist-SL](docs/solvers.md#CYCLIST)
+* [ComSPEN](docs/solvers.md#ComSPEN)
+* [Cyclist-SL](docs/solvers.md#Cyclist-SL)
 * [CVC4](docs/solvers.md#CVC4) 
 * [Harrsh](docs/solvers.md#Harrsh) 
 * [S2S](docs/solvers.md#S2S)
 * [Sleek](docs/solvers.md#Sleek)
 * [Slide](docs/solvers.md#Slide)
 * [SLSAT](docs/solvers.md#SLSAT)
-* [Songbird](docs/solvers.md#SB)
+* [Songbird](docs/solvers.md#Songbird)
 * [SPEN](docs/solvers.md#SPEN)
 
 
