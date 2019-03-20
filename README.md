@@ -94,7 +94,8 @@ The following solvers have participated to at least one edition of SL-COMP:
 * [SPEN](docs/solvers.md#SPEN)
 
 
-# Previous editions
+# Editions
+* [SL-COMP 2019](https://www.irif.fr/~sighirea/sl-comp/19/index.html) at [TOOLympics 2019](https://tacas.info/toolympics.php)
 * [SL-COMP 2018](https://www.irif.fr/~sighirea/sl-comp/18/index.html) at [FLOC 2018](https://www.floc18.org)
 * [SL-COMP 2014](https://www.irif.fr/~sighirea/sl-comp/14/index.html) at [FLOC 2014](http://vsl2014.at/)
 
