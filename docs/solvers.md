@@ -60,10 +60,10 @@ theorem prover. In Proc. APLAS-10, pages 350-367. Springer, 2012.
 
 
 * Participation
-   * 2014: /=UDB_entl=/, /=UDB_sat=/, /=sll0a_entl=/, /=sll0a_sat=/, /=FDB_entl=/
-   * 2018: /=qf_shid_entl=/, /=qf_shid_sat=/,
-   /=qf_shls_entl=/, /=qf_shls_sat=/, /=qf_shlid_entl=/,
-   /=shid_entl=/
+   * 2014: `UDB_entl`, `UDB_sat`, `sll0a_entl`, `sll0a_sat`, `FDB_entl`
+   * 2018: `qf_shid_entl`, `qf_shid_sat`,
+   `qf_shls_entl`, `qf_shls_sat`, `qf_shlid_entl`,
+   `shid_entl`
 
 
 # CVC4
@@ -75,18 +75,29 @@ SL atoms without inductive definitions.
    * Andrew J. Reynolds <andrew.j.reynolds@gmail.com>
 
 * Participation
-   * 2018: /=qf_bsl_sat=/, /=bsl_sat=/
+   * 2018: `qf_bsl_sat`, `bsl_sat`
 
 
 # Harrsh
 
-HARRSH is a prover for symbolic heap separation logic with user defined predicates. It can prove satisfiability as well as various reachability based properties of symbolic heaps, including garbage freedom and acyclicity. HARRSH is based on Heap Automata, as introduced in our ESOP 2017 paper, Unified Reasoning about Robustness Properties of Symbolic Heap Separation Logic.
+HARRSH is a prover for symbolic heap separation logic with user defined predicates. 
+It can prove satisfiability as well as various reachability based properties of symbolic heaps, 
+including garbage freedom and acyclicity. HARRSH is based on Heap Automata, 
+as introduced in our ESOP 2017 paper below.
 
 * Contact
    * Jens Katelaan <jkatelaan@forsyte.at>
 
+* Reference
+  * Jens Katelaan, Christoph Matheja, Thomas Noll, and Florian Zuleger.
+    Harrsh: A Tool for Unied Reasoning about Symbolic-Heap Separation Logic.
+    In Proc. LPAR-22, Easychair, 2018.
+  * Christina Jansen, Jens Katelaan, Christoph Matheja, Thomas Noll, and Florian Zuleger.
+    Unified Reasoning About Robustness Properties of Symbolic-Heap Separation Logic.
+    In Proc. ESOP, volume 10201 of LNCS, Springer, 2017.
+    
 * Participation
-   * 2018: /=qf_shid_sat=/, /=qf_shls_sat=/
+   * 2018: `qf_shid_sat`, `qf_shls_sat`
 
 
 # S2S
@@ -103,20 +114,31 @@ and one satisfiability solver of string logic.
    * Le Quang Loc <lequangloc@gmail.com>
 
 * Participation
-   * 2018: /=qf_shid_entl=/, /=qf_shid_sat=/,
-                /=qf_shidlia_entl=/, /=qf_shidlia_sat=/,
-                /=qf_shls_entl=/, /=qf_shls_sat=/,
-                /=shid_entl=/, /=shidlia_entl=/
+   * 2018: `qf_shid_entl`, `qf_shid_sat`,
+                `qf_shidlia_entl`, `qf_shidlia_sat`,
+                `qf_shls_entl`, `qf_shls_sat`,
+                `shid_entl`, `shidlia_entl`
 
 # Sleek
+
+Sleek deals with the satisfiability and entailment checking for the `qf_shid` fragment.
+It is an (incomplete but) automatic prover, that builds a proof tree for the input problem 
+by using the classical inference rules and the frame rule of SL. It also uses a database of lemmas for the inductive definitions in order to discharge the proof obligations on the spatial formulas.
+The proof obligations on pure formulas are discharged by external provers like CVC4, Mona, or Z3.
 
 * Contact
    * Benedict Lee <benedictleejh@gmail.com>
    * Chin Wei Ngan <chinwn@comp.nus.edu.sg>
 
+* Reference
+  * Wei-Ngan Chin, Cristina David, Huu Hai Nguyen, and Shengchao Qin.
+    Automated verification of shape, size and bag properties
+               via user-defined predicates in separation logic.
+    In Sci. Comput. Program. 77(9), 2012.
+    
 * Participation
-   * 2014: all
-   * 2018: all
+   * 2014: all, winner `UDB_entl`
+   * 2018: all, bronze `qf_shid_entl`
 
 
 # Slide
@@ -133,13 +155,13 @@ AutRHS.
    * Adam Rogalewicz <rogalew@fit.vutbr.cz>
 
 * Participation
-   * 2014: /=UDB_entl=/, /=FDB_entl=/
-   * 2018: /=qf_shid_entl=/, /=qf_shlid_entl=/, /=shid_entl=/
+   * 2014: `UDB_entl`, `FDB_entl`
+   * 2018: `qf_shid_entl`, `qf_shlid_entl`, `shid_entl`
 
 
 # SLSAT
 
-SLSAT deals with the satisfiability problem for the /=qf_slid=/ fragment.
+SLSAT deals with the satisfiability problem for the `qf_slid` fragment.
 The decision procedure is based on a fixed point computation of a constraint, 
 called the 'base' of an inductive predicate definition. 
 This constraint is a conjunction of equalities and dis-equalities between 
@@ -155,13 +177,13 @@ a set of free variables built also by the fixed point computation from the set o
 
 
 * Participation
-   * 2014: /=UDB_sat=/ (second), /=sll0a_sat=/
-   * 2018: /=qf_shid_sat=/, /=qf_shls_sat=/
-   * 2019: /=qf_shid_sat=/, /=qf_shls_sat=/
+   * 2014: `UDB_sat` (second), `sll0a_sat`
+   * 2018: `qf_shid_sat`, `qf_shls_sat`
+   * 2019: `qf_shid_sat`, `qf_shls_sat`
 
 # Songbird
 
-Songbird targets /=shidlia=/| fragment and its subfragments. It employs mathematical induction
+Songbird targets `shidlia`| fragment and its subfragments. It employs mathematical induction
 to prove entailments involving user-defined predicates. In addition,
 Songbird is also equipped with powerful proof techniques,
 which include a mutual induction proof system and
@@ -180,7 +202,7 @@ a lemma synthesis framework.
    In Proc. FM, volume 9995 of LNCS, pages 659-676, Springer, 2016.
    
 * Participation
-   * 2018: ALL, winner in /=qf_shid_entl=/, /=qf_shidlia_entl=/, /=shid_entl=/, /=shidlia_entl=/
+   * 2018: ALL, winner in `qf_shid_entl`, `qf_shidlia_entl`, `shid_entl`, `shidlia_entl`
 
 
 #  SPEN
@@ -202,6 +224,6 @@ constraints. The internals are published in
    * Mihaela Sighireanu <mihaela.sighireanu@gmail.com>
 
 * Participation
-   * 2014: /=FDB_entl=/, /=sll0a_entl=/, /=sll0a_sat=/
-   * 2018: /=qf_shls_sat=/, /=qf_shls_entl=/, /=qf_shlid_entl=/,
-   /=qf_shid_entl=/, /=qf_shid_sat=/
+   * 2014: `FDB_entl` (winner), `sll0a_entl` (bronze), `sll0a_sat` (bronze)
+   * 2018: `qf_shls_sat`, `qf_shls_entl`, `qf_shlid_entl`,
+   `qf_shid_entl`, `qf_shid_sat`
