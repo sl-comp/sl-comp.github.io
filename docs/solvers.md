@@ -130,7 +130,7 @@ and one satisfiability solver of string logic.
    * Le Quang Loc <lequangloc@gmail.com>
 
 * Reference:
-   * [[https://loc.bitbucket.io/s2s/][Web site]]
+   * [https://loc.bitbucket.io/s2s/](Web site)
   
 * Participation
    * 2018: `qf_shid_entl`, `qf_shid_sat`,
