@@ -26,7 +26,7 @@ generalizes it to a larger class of models where the formula is also valid.
 * Participation
    * 2014: `sll0a_sat` (winner), `sll0a_entl` (winner)
    * 2018: `qf_shls_sat` (winner), `qf_shls_entl` (winner)
-   * 2019: `qf_shls_sat`, `qf_shls_entl`
+   * 2019: `qf_shls_sat` (winner), `qf_shls_entl` (winner)
 
 
 # ComSPEN
@@ -69,9 +69,8 @@ For the Separation Logic, Cyclist-SL replaces the rule of weakening used in firs
 
 * Participation
    * 2014: `UDB_entl` (winner), `UDB_sat`, `sll0a_entl`, `sll0a_sat`, `FDB_entl`
-   * 2018: `qf_shid_entl` (second), `qf_shid_sat`,
-   `qf_shls_entl`, `qf_shls_sat`, `qf_shlid_entl`,
-   `shid_entl`
+   * 2018: `qf_shid_entl` (second), `qf_shls_entl`, `qf_shlid_entl`, `shid_entl`
+   * 2019: `qf_shid_entl`, `qf_shls_entl`, `qf_shlid_entl`, `shid_entl`
 
 
 # CVC4
@@ -89,6 +88,7 @@ SL atoms without inductive definitions.
     
 * Participation
    * 2018: `qf_bsl_sat`, `bsl_sat`
+   * 2019: `qf_bsl_sat`, `bsl_sat`
 
 
 # Harrsh
@@ -111,6 +111,9 @@ as introduced in our ESOP 2017 paper below.
     
 * Participation
    * 2018: `qf_shid_sat`, `qf_shls_sat`
+   * 2019: `qf_shid_entl`, `sf_shid_sat` (bronze),
+              `qf_shidlia_entl`, `qf_shlid_entl` (bronze),
+              `qf_shls_entl`, 
 
 
 # S2S
@@ -126,12 +129,20 @@ and one satisfiability solver of string logic.
 * Contact
    * Le Quang Loc <lequangloc@gmail.com>
 
+* Reference:
+   * [[https://loc.bitbucket.io/s2s/][Web site]]
+  
 * Participation
    * 2018: `qf_shid_entl`, `qf_shid_sat`,
-                `qf_shidlia_entl`, `qf_shidlia_sat`,
+                `qf_shidlia_entl`, `qf_shidlia_sat` (winner), `qf_shlid_entl` (winner), 
                 `qf_shls_entl`, `qf_shls_sat`,
-                `shid_entl`, `shidlia_entl`
-
+                `shid_entl` (second), `shidlia_entl`
+   * 2019: winner in `qf_shid_entl`, `qf_shid_sat`,
+                `qf_shidlia_entl`, `qf_shidlia_sat`, 
+                `qf_shlid_entl`, `shid_entl`, `shidlia_entl`,
+           second in `qf_shls_entl`, `qf_shls_sat`.
+                
+                
 # Sleek
 
 Sleek deals with the satisfiability and entailment checking for the `qf_shid` fragment.
@@ -196,8 +207,8 @@ a set of free variables built also by the fixed point computation from the set o
 
 * Participation
    * 2014: `UDB_sat` (second), `sll0a_sat`
-   * 2018: `qf_shid_sat`, `qf_shls_sat`
-   * 2019: `qf_shid_sat`, `qf_shls_sat`
+   * 2018: `qf_shid_sat` (winner), `qf_shls_sat`
+   * 2019: `qf_shid_sat` (second), `qf_shls_sat`
 
 # Songbird
 
@@ -220,7 +231,9 @@ a lemma synthesis framework.
    In Proc. FM, volume 9995 of LNCS, pages 659-676, Springer, 2016.
    
 * Participation
-   * 2018: ALL, winner in `qf_shid_entl`, `qf_shidlia_entl`, `shid_entl`, `shidlia_entl`
+   * 2018: ALL, winner in `qf_shid_entl`, `qf_shidlia_entl`, `shid_entl`, `shidlia_entl`,
+           second in `qf_shidlia_sat`
+   * 2019: ALL
 
 
 #  SPEN
