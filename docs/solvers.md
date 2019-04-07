@@ -47,7 +47,8 @@ arithmetics.
     
 * Participation
    * 2018 (expected but pull out because of an issue on StarExec)
-   * 2019: `qf_shidlia_sat`, `qf_shidlia_entl`, `qf_shlid_entl`, `qf_shls_entl`, `qf_shls_sat`
+   * 2019: `qf_shidlia_entl` (3/5&#9734;), `qf_shidlia_sat` (4/5&#9734;, 33%VBS), 
+           `qf_shlid_entl`, `qf_shls_entl` (1/5&#9734;), `qf_shls_sat` (3/5&#9734;)
  
  
 # Cyclist-SL
@@ -63,14 +64,15 @@ For the Separation Logic, Cyclist-SL replaces the rule of weakening used in firs
 
 * References
    * J. Brotherston, N. Gorogiannis, and R. L. Petersen. 
-   A generic cyclic theorem prover. I
-   n Proc. APLAS-10, pages 350-367. Springer, 2012.
+   A generic cyclic theorem prover. 
+   In Proc. APLAS-10, pages 350-367. Springer, 2012.
 
 
 * Participation
    * 2014: `UDB_entl` (winner), `UDB_sat`, `sll0a_entl`, `sll0a_sat`, `FDB_entl`
    * 2018: `qf_shid_entl` (second), `qf_shls_entl`, `qf_shlid_entl`, `shid_entl`
-   * 2019: `qf_shid_entl`, `qf_shls_entl`, `qf_shlid_entl`, `shid_entl`
+   * 2019: `qf_shid_entl` (2/5&#9734;, 20,5%VBS), `qf_shlid_entl` (2/5&#9734;), 
+           `qf_shls_entl` (36%VBS), `shid_entl` (3/5&#9734;)
 
 
 # CVC4
@@ -111,9 +113,9 @@ as introduced in our ESOP 2017 paper below.
     
 * Participation
    * 2018: `qf_shid_sat`, `qf_shls_sat`
-   * 2019: `qf_shid_entl`, `sf_shid_sat` (bronze),
-              `qf_shidlia_entl`, `qf_shlid_entl` (bronze),
-              `qf_shls_entl`, 
+   * 2019: `qf_shid_entl` (3/5&#9734;), `sf_shid_sat` (3/5&#9734;),
+              `qf_shidlia_entl`, `qf_shlid_entl` (3/5&#9734;),
+              `qf_shls_entl`, `qf_shls_sat`
 
 
 # S2S
@@ -137,10 +139,10 @@ and one satisfiability solver of string logic.
                 `qf_shidlia_entl`, `qf_shidlia_sat` (winner), `qf_shlid_entl` (winner), 
                 `qf_shls_entl`, `qf_shls_sat`,
                 `shid_entl` (second), `shidlia_entl`
-   * 2019: winner in `qf_shid_entl`, `qf_shid_sat`,
+   * 2019: winner (5/5&#9749;) in `qf_shid_entl`, `qf_shid_sat`,
                 `qf_shidlia_entl`, `qf_shidlia_sat`, 
                 `qf_shlid_entl`, `shid_entl`, `shidlia_entl`,
-           second in `qf_shls_entl`, `qf_shls_sat`.
+           but second (4/5&#9749;) in `qf_shls_entl`, `qf_shls_sat`.
                 
                 
 # Sleek
@@ -163,6 +165,9 @@ The proof obligations on pure formulas are discharged by external provers like C
 * Participation
    * 2014: all, winner `UDB_entl`
    * 2018: all, bronze `qf_shid_entl`
+   * 2019: all with noticeable results in `qf_shid_entl` (1/5&#9749;), `qf_shid_sat` (4/5&#9749;),
+           `qf_shidlia_sat` (2/5&#9749;, 15%VBS), `qf_shlid_entl` (1/5&#9749;),
+           `qf_shls_entl`, `qf_shls_sat` (1/5&#9749;), `shid_entl`, `shidlia_entl`
 
 
 # Slide
@@ -186,6 +191,8 @@ AutRHS.
 * Participation
    * 2014: `UDB_entl`, `FDB_entl`
    * 2018: `qf_shid_entl`, `qf_shlid_entl`, `shid_entl`
+   * 2019: `qf_shid_entl`, `qf_shlid_entl`, `qf_shls_entl`, 
+           `shid_entl` (2/5&#9749;)  
 
 
 # SLSAT
@@ -208,7 +215,8 @@ a set of free variables built also by the fixed point computation from the set o
 * Participation
    * 2014: `UDB_sat` (second), `sll0a_sat`
    * 2018: `qf_shid_sat` (winner), `qf_shls_sat`
-   * 2019: `qf_shid_sat` (second), `qf_shls_sat`
+   * 2019: `qf_shid_sat` (4/5&#9749;, 18%VBS), `qf_shls_sat`
+
 
 # Songbird
 
@@ -231,9 +239,13 @@ a lemma synthesis framework.
    In Proc. FM, volume 9995 of LNCS, pages 659-676, Springer, 2016.
    
 * Participation
-   * 2018: ALL, winner in `qf_shid_entl`, `qf_shidlia_entl`, `shid_entl`, `shidlia_entl`,
+   * 2018: all, winner in `qf_shid_entl`, `qf_shidlia_entl`, `shid_entl`, `shidlia_entl`,
            second in `qf_shidlia_sat`
-   * 2019: ALL
+   * 2019: all, with noticeable results in `qf_shid_entl` (4/5&#9749;), `qf_shid_sat` (2/5&#9749;), 
+           `qf_shidlia_entl` (4/5&#9749;, 16%VBS), `qf_shidlia_entl` (4/5&#9749;, 16%VBS),
+           `qf_shidlia_sat` (3/5&#9749;, 15%VBS), `qf_shlid_entl` (4/5&#9749;),
+           `qf_shls_entl` (2/5&#9749;), `qf_shls_sat`, 
+           `shid_entl` (4/5&#9749;), `shidlia_entl` (4/5&#9749;)
 
 
 #  SPEN
@@ -258,3 +270,4 @@ constraints. The internals are published in
    * 2014: `FDB_entl` (winner), `sll0a_entl` (bronze), `sll0a_sat` (bronze)
    * 2018: `qf_shls_sat`, `qf_shls_entl`, `qf_shlid_entl`,
    `qf_shid_entl`, `qf_shid_sat`
+   * 2019: `qf_shlid_entl`, `qf_shls_entl` (3/5&#9749;), `qf_shls_sat` (2/5&#9749;)
