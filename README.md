@@ -13,7 +13,8 @@ it has been afiliated with different events:
 [TOOLympics 2019](https://tacas.info/toolympics.php).
 
 # NEWS
-* April 6, 2019: Presentation of SL-COMP'19 at [TOOLympics 2019](https://tacas.info/toolympics.php)
+* April 6-7, 2019: [Presentation of SL-COMP'19](https://github.com/sl-comp/SL-COMP19/tree/master/doc/slides/toolympics19.pdf)
+  at [TOOLympics 2019](https://tacas.info/toolympics.php)
 * March 31, 2019: Last official run of SL-COMP'19 on [StarExec](https://starexec.org)
 * March 22, 2019: First official run of SL-COMP'19 on [StarExec](https://starexec.org), follow results [here](https://www.irif.fr/~sighirea/sl-comp/19/index.html)
 * March 8, 2019: First training run of SL-COMP'19 on [StarExec](https://starexec.org)
