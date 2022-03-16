@@ -13,17 +13,7 @@ it has been afiliated with different events:
 [TOOLympics 2019](https://tacas.info/toolympics.php).
 
 # NEWS
-* April 6-7, 2019: [Presentation of SL-COMP'19](https://github.com/sl-comp/SL-COMP19/tree/master/doc/slides/toolympics19.pdf)
-  at [TOOLympics 2019](https://tacas.info/toolympics.php)
-* March 31, 2019: Last official run of SL-COMP'19 on [StarExec](https://starexec.org)
-* March 22, 2019: First official run of SL-COMP'19 on [StarExec](https://starexec.org), follow results [here](https://www.irif.fr/~sighirea/sl-comp/19/index.html)
-* March 8, 2019: First training run of SL-COMP'19 on [StarExec](https://starexec.org)
-* February 25, 2019: Preliminary description of SL-COMP'19 at [TOOLympics 2019](https://tacas.info/toolympics.php) available at [competition's web site](https://github.com/sl-comp/SL-COMP19/tree/master/doc/report/toolympics19/main.pdf)
-* January 8, 2019: Deadline for registration of solvers for SL-COMP 2019 at 
-     [easychair submission site](https://easychair.org/conferences/?conf=slcomp19)
-* December 7, 2018: Call for participation to SL-COMP 2019 at [TOOLympics 2019](https://tacas.info/toolympics.php)
-* July 14, 2018: Results of [SL-COMP 2018](https://www.irif.fr/~sighirea/sl-comp/18/index.html) are presented at 
-     [ADSL 2018](http://adsl.univ-grenoble-alpes.fr/)
+* New edition of SL-COMP will take place as part of [FLOC 2022 Olympic Games](https://www.floc2022.org/floc-olympic-games) affiliated with [IJCAR 2022](https://ijcar.org/).
 
 # Specification and rules
 
