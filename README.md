@@ -13,7 +13,7 @@ it has been afiliated with different events:
 [TOOLympics 2019](https://tacas.info/toolympics.php).
 
 # NEWS
-* New edition of SL-COMP will take place as part of [FLOC 2022 Olympic Games](https://www.floc2022.org/floc-olympic-games) affiliated with [IJCAR 2022](https://ijcar.org/).
+* New edition of SL-COMP will take place as part of [FLOC 2022 Olympic Games](https://www.floc2022.org/floc-olympic-games) affiliated with [IJCAR 2022](https://ijcar.org/). The result will be presented on July 31st, 2022, during the [ASL](https://asl-workshop.github.io/asl22/) workshop.
 
 # Specification and rules
 
@@ -106,4 +106,4 @@ The following solvers have participated to at least one edition of SL-COMP:
 # Mailing list
   Any question related to this competition shall be sent to
   the organisation committee and to the
-  [mailing list](https://groups.google.com/forum/sl-comp).
+  [organizers](mailto:mihaela.sighireanu@ens-paris-saclay.fr,lequangloc@gmail.com).
