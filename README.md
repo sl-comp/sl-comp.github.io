@@ -6,7 +6,7 @@ The competition is run on more than 1K decision problems for different theories
 of Separation Logic. The solvers are compared on each theory on the number
 of problems solved and the running time. 
 This initiative started at [FLOC 2014](http://vsl2014.at/) and 
-it has been afiliated with different events: 
+it has been affiliated with different events: 
 [SMT-COMP 2014](http://smtcomp.sourceforge.net/2014/), 
 [FLOC 2018](https://www.floc18.org) workshop
 [ADSL 2018](http://adsl.univ-grenoble-alpes.fr/) and 
