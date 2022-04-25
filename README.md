@@ -112,4 +112,4 @@ The following solvers have participated to at least one edition of SL-COMP:
   Any question related to this competition shall be sent to
   the organisation committee and to the
   [organizers](mailto:mihaela.sighireanu@ens-paris-saclay.fr,lequangloc@gmail.com).
-  Please subscribe to the [Slack](sl-compgroup.slack.com) channel to participate to the competition. 
+  Please subscribe to the [Slack](https://sl-compgroup.slack.com) channel to participate to the competition. 
