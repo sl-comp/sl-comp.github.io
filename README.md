@@ -16,7 +16,7 @@ it has been affiliated with different events:
 * New edition of SL-COMP will take place as part of [FLOC 2022 Olympic Games](https://www.floc2022.org/floc-olympic-games) affiliated with [IJCAR 2022](https://ijcar.org/). Important dates:
   - Proposals for problems: May 31, 2022
   - Solver registration: June 15, 2022
-  - Trainign period: June 15-July 15, 2022
+  - Training period: June 15-July 15, 2022
   - Competition rounds: july 15 - July 30, 2022
   - Presentation of final results: July 31st, 2022, during the [ASL](https://asl-workshop.github.io/asl22/) workshop.
 
@@ -31,15 +31,15 @@ The possible answers of a solver are: *sat*, *unsat* and *unknown*. The answer i
 The problems are specified using the format described [here](docs/smtlib-sl.pdf) and commented in this [post](https://groups.google.com/forum/?hl=fr#!topic/sl-comp/3j8iaaLvTWs). 
 The input format of problems extends the format [SMT-LIB](http://smtlib.cs.uiowa.edu/index.shtml) with SL constructs, and exploit the new features of SMT-LIB like datatypes definition and mutually recursive functions.
 
-Teams may contribute with problems in the input format above. The number of problems submitted by a team in some division is limited. The problems submitted are revised by the organizing committee which may or may not accept it. An accepted problem may be changed when this improves the overall quality of the final set of problems. 
+Teams may contribute with problems in the input format above. The number of problems submitted by a team in some division is limited. The problems submitted are revised by the organizing committee which may or may not accept them. An accepted problem may be changed when this improves the overall quality of the final set of problems. 
 
-The solvers shall run on the [StarExec](https://starexec.org) platform. Solvers may use a pre-processor to transform the input file format to the solver's format.The time spent on this pre-processor is not included in the evaluation time. The input problems are not scrambled before their submission to he solver.
+The solvers shall run on the [StarExec](https://starexec.org) platform. Solvers may use a pre-processor to transform the input file format to the solver's format. The time spent on this pre-processor is not included in the evaluation time. The input problems are not scrambled before their submission to the solver.
 
 # Benchmark and divisions
 
 The set of decision problems collected until now are available for browsing and download on the following [GIT repository](https://github.com/sl-comp/SL-COMP18/tree/master/bench).
 
-Each problem is contributed by a team, as specified in the file header. Thanks to all participants that contributed programs, sent patches, and commented on the sets. 
+Each problem is contributed by a team, as specified in the file header. Many thanks to all contributors with tools, patches, and commented on the benchmark. 
 
 The file header also specifies the status of the problems (*sat*, *unsat*) and, most importantly, the logic fragment used in this problem. A division is defined by its logic fragment. The following division are now present:
 * Satisfiability checking:
