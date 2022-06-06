@@ -2,8 +2,8 @@ The Separation Logic Competition (SL-COMP) is an initiative to bring together
 researchers and practitioners interested on improving the state of the art of 
 automated deduction methods for 
 [Separation Logic](http://www0.cs.ucl.ac.uk/staff/p.ohearn/SeparationLogic/Separation_Logic/SL_Home.html).
-The competition is run on more than 1K decision problems for different theories 
-of Separation Logic. The solvers are compared on each theory on the number
+The competition is run on more than 1K decision problems for different fragments 
+of Separation Logic. The solvers are compared on each fragment on the number
 of problems solved and the running time. 
 This initiative started at [FLOC 2014](http://vsl2014.at/) and 
 it has been affiliated with different events: 
@@ -17,7 +17,7 @@ it has been affiliated with different events:
   - Proposals for problems: May 31, 2022
   - Solver registration: June 15, 2022
   - Training period: June 15-July 15, 2022
-  - Competition rounds: july 15 - July 30, 2022
+  - Competition rounds: July 15-July 30, 2022
   - Presentation of final results: July 31st, 2022, during the [ASL](https://asl-workshop.github.io/asl22/) workshop.
 
 # Specification and rules
