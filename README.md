@@ -13,12 +13,7 @@ it has been affiliated with different events:
 [TOOLympics 2019](https://tacas.info/toolympics.php).
 
 # NEWS
-* New edition of SL-COMP will take place as part of [FLOC 2022 Olympic Games](https://www.floc2022.org/floc-olympic-games) affiliated with [IJCAR 2022](https://ijcar.org/). Important dates:
-  - Proposals for problems: May 31, 2022
-  - Solver registration: June 15, 2022
-  - Training period: June 15-July 15, 2022
-  - Competition rounds: July 15-July 30, 2022
-  - Presentation of final results: July 31st, 2022, during the [ASL](https://asl-workshop.github.io/asl22/) workshop.
+* SL-COMP will pe presented at TOOLympics in [TACAS 2023](https://www.etaps.org/2023/conferences) on Wednesday April 26th, at 5pm.
 
 # Specification and rules
 
